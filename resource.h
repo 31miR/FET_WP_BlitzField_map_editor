@@ -1,0 +1,3 @@
+#define OPEN_MAPPING 1001
+#define SAVE_MAPPING 1002
+#define LOAD_BITMAP 1003

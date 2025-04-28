@@ -1,0 +1,16 @@
+#include "resource.h"
+MOJMENI MENU
+BEGIN
+POPUP "&File"
+BEGIN
+MENUITEM "&Open mapping...", OPEN_MAPPING
+MENUITEM "&Save mapping...", SAVE_MAPPING
+MENUITEM "&Load bitmap...", LOAD_BITMAP
+MENUITEM SEPARATOR
+MENUITEM "&Exit", 1200
+END
+POPUP "&Help"
+BEGIN
+MENUITEM "&About", 1300
+END
+END
